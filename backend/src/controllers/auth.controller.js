@@ -81,7 +81,8 @@ export const login = async (req, res) => {
             profilePic: user.profilePic,
             createdAt: user.createdAt,
             publicKey: user.publicKey,
-            organization: user.organization
+            organization: user.organization,
+            role: user.role,
         })
 
     }
